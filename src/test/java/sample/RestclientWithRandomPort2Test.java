@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestClient;
 
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
-class RestclientWithRamdomPort2Test {
+class RestclientWithRandomPort2Test {
 
     private static RestClient restClient;
 

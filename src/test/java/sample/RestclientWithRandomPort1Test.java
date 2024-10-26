@@ -15,7 +15,7 @@ import org.springframework.web.client.support.RestClientAdapter;
 import org.springframework.web.service.invoker.HttpServiceProxyFactory;
 
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
-class RestclientWithRamdomPort1Test {
+class RestclientWithRandomPort1Test {
 
     @Autowired
     private RestClient restClient;
